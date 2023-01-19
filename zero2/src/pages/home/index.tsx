@@ -19,7 +19,7 @@ interface Cycle {
 
 interface CyclesContextData {
   activeCycle: Cycle | undefined
-  activeCycleId: string | undefined
+  activeCycleId: string | null
   markCurrentCycleAsFinished: () => void
 }
 
